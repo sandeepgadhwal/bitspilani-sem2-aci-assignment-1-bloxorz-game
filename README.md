@@ -13,3 +13,34 @@ vertically. When the block reaches the hole, it must be in standing state to fal
 The level-1 of the game begins with the size of the terrain as 6×10 rows and
 columns, starting position is at row 2 and column 2 or as user determines it, and
 goal position is at row 5 and column 8.
+
+
+answer the
+following questions :
+1) Formulate the Bloxorz problem as a search problem by depicting its states
+representation, initial state, actions, transition model, goal state. [ 1M ].
+  
+2) Can BFS/DFS be used to solve this problem ? If so, explain how it can be
+used by providing an algorithm/pseudocode [ 2M ]
+  
+3) Can A* search be used to solve this problem ? If so, explain how it can be
+used by providing an algorithm/pseudocode [ 2M ]
+  
+4) Implement an agent to solve level-1 of Bloxorz game using python. [ 8M ]
+  
+a. You may choose to represent the game as a map using of 0,1 as shown
+here. 1’s represents the tile and
+0’s is void spaces & 9 represents
+goal.
+  
+b. Show/Print the step by step
+process your agent takes to reach
+the goal.
+  
+c. You may use “X” to indicate the
+current position at each step.
+  
+d. Also print the number of steps taken by your agent to reach the goal.
+  
+e. You can choose any uninformed search or informed search strategies
+to implement this in python.
